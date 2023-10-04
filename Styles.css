@@ -1,0 +1,66 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  /* Estilos para el encabezado */
+  .header {
+    text-align: center;
+    background-image: url(img/footer.jpg);
+    color: white;
+    padding: 15px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    background-size: auto 442px;
+    height: 442px;
+    margin-bottom: 52px;
+}
+  
+  /* Estilos para el menú */
+  .navbar {
+    background-color: #333; 
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover {
+    background-color: #555;
+  }
+  
+  .container {
+    text-align: center; 
+    padding: 30px;
+  }
+  
+  .container h2 {
+    font-size: 24px; 
+    margin-bottom: 20px;
+  }
+  
+  section {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-image: url(img/footer.jpg); 
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    clear: both;
+  }
